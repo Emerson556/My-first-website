@@ -37,6 +37,10 @@ button:hover {
     background: #ff6699;
 }
 
+button:glow {
+    background: #9900cc;
+}
+
 ul {
     list-style: none;
     padding: 0;
