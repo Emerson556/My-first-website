@@ -3,7 +3,9 @@ body {
     text-align: center;
     padding: 20px;
     transition: background 0.3s, color 0.3s;
-    background: linear-gradient(to right,#6a11cb,#2575fc);
+    background: linear-gradient(270deg,#6a11cb,#2575fc,#6a11cb);
+    backgroun-size:600% 600%;
+    animation:gradientAnimation 20s ease infinite;
 }
 
 .container {
@@ -58,4 +60,15 @@ li {
 .dark-mode .container {
     background: #444;
     box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
