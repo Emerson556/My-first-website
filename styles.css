@@ -3,7 +3,7 @@ body {
     text-align: center;
     padding: 20px;
     transition: background 0.3s, color 0.3s;
-    background: linear-graidient(to right, #6a11cb,#2575fc);
+    background: linear-gradient(to right, #6a11cb,#2575fc);
 }
 
 .container {
