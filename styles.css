@@ -4,11 +4,13 @@ body {
     padding: 20px;
     transition: background 0.3s, color 0.3s;
     background: linear-gradient(270deg,#6a11cb,#2575fc,#6a11cb);
-    backgroun-size:600% 600%;
+    background-size:600% 600%;
     animation:gradientAnimation 20s ease infinite;
 }
 body.dark-mode {
     background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    background-size:600% 600%;
+    animation:gradientAnimation 20s ease infinite;
 }
 .container {
     max-width: 800px;
