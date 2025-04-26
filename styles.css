@@ -35,8 +35,9 @@ button {
 }
 
 button:hover {
-    background: #ff6699;
-    transform: scale(1.05);
+    background:#ff6699;
+    animation:bounce 1s;
+    transform:scale(1.05);
 }
 
 button:glow {
@@ -72,3 +73,15 @@ li {
         background-position: 0% 50%;
     }
 }
+@keyframes bounce {
+    0%,20%,50%,80%,100% {
+        transform:translateY(0);
+    }
+    40% {
+        Transform:translateY(-20px);
+    }
+    60% {
+        transform:translateY(-10px);
+    }
+}
+        
