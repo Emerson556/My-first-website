@@ -101,4 +101,14 @@ li {
     from,to{border-color:transparent}
     50%{border-color:black;}
 }
-    
+
+.fade-in {
+    opacity:0;
+    animation:fadeInAnimation 2s forwards;
+}
+
+@keyframes fadeInAnimation {
+    to {
+        opacity: 1;
+    }
+}
