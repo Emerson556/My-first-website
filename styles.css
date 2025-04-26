@@ -3,7 +3,7 @@ body {
     text-align: center;
     padding: 20px;
     transition: background 0.3s, color 0.3s;
-    background: #f8f9fa;
+    background:  #dd99ff;
     color: #333;
 }
 
@@ -38,7 +38,7 @@ button:hover {
 }
 
 button:glow {
-    background: #9900cc;
+    background: #0000ff;
 }
 
 ul {
