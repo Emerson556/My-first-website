@@ -7,7 +7,10 @@ body {
     backgroun-size:600% 600%;
     animation:gradientAnimation 20s ease infinite;
 }
-
+body.dark-mode {
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
 .container {
     max-width: 800px;
     margin: auto;
